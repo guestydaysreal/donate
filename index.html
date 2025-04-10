@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Support This Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background-color: #121212;
+      color: white;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 2em;
+      text-align: center;
+    }
+
+    .iframe-wrapper {
+      width: 100%;
+      max-width: 700px;
+      background: #1e1e1e;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 720px;
+      background-color: #f9f9f9;
+    }
+
+    .back-button {
+      margin-top: 1.5rem;
+      padding: 0.6rem 1.2rem;
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background 0.3s;
+    }
+
+    .back-button:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>☕ Support This Project</h1>
+
+  <div class="iframe-wrapper">
+    <iframe id="kofiframe"
+      src="https://ko-fi.com/guestydaysreal/?hidefeed=true&widget=true&embed=true&preview=true"
+      title="guestydaysreal">
+    </iframe>
+  </div>
+
+  <button class="back-button" onclick="window.location.href='/'">← Back to site</button>
+
+</body>
+</html>
